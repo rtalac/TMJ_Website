@@ -49,18 +49,16 @@ export const Footer: React.FC<FooterProps> = ({
           
           {/* Brand & Mission Column */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-teal-800 flex items-center justify-center text-white font-bold font-serif text-xl">
-                R
-              </div>
-              <div>
-                <span className="text-lg font-bold text-white font-serif tracking-tight block">
-                  RENAXIS
-                </span>
-                <span className="text-[11px] text-teal-400 font-semibold uppercase tracking-wider">
-                  TMJ Regenerative Care Program
-                </span>
-              </div>
+            <div 
+              onClick={() => handleNav('overview')}
+              className="cursor-pointer group inline-block"
+            >
+              <span className="text-xl font-bold text-white font-serif tracking-tight block leading-none group-hover:text-teal-300 transition-colors">
+                RENAXIS
+              </span>
+              <span className="text-xs text-teal-400 font-semibold tracking-wide block mt-1">
+                TMJ Regenerative Care
+              </span>
             </div>
 
             <p className="text-slate-400 leading-relaxed text-xs">

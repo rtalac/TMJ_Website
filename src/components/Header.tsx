@@ -20,7 +20,6 @@ export const Header: React.FC<HeaderProps> = ({
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { id: 'overview', label: 'Overview' },
     { id: 'conditions', label: 'Conditions & Symptoms' },
     { id: 'diagnosis', label: 'Comprehensive Diagnosis' },
     { id: 'treatments', label: 'Treatment Options' },
@@ -76,24 +75,14 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Brand Logo & Program Identity */}
           <div 
             onClick={() => handleNavClick('overview')}
-            className="cursor-pointer group flex items-center gap-3 py-2"
+            className="cursor-pointer group py-2"
           >
-            <div className="w-11 h-11 rounded-lg bg-linear-to-br from-slate-900 via-sky-950 to-teal-900 flex items-center justify-center text-white font-bold shadow-md group-hover:shadow-teal-900/20 transition-all">
-              <span className="text-lg font-serif">R</span>
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xl font-bold tracking-tight text-slate-900 font-serif">
-                  RENAXIS
-                </span>
-                <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-teal-50 text-teal-800 border border-teal-200">
-                  TMJ Program
-                </span>
-              </div>
-              <p className="text-xs text-slate-600 font-medium">
-                TMJ Regenerative Care &bull; Diagnosis &bull; Treatment &bull; Rehabilitation
-              </p>
-            </div>
+            <span className="text-2xl font-bold tracking-tight text-slate-900 font-serif block leading-none">
+              RENAXIS
+            </span>
+            <span className="text-xs text-teal-800 font-semibold tracking-wide block mt-1">
+              TMJ Regenerative Care
+            </span>
           </div>
 
           {/* Desktop Nav Links */}
