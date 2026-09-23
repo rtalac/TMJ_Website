@@ -214,7 +214,7 @@ export const ClinicianReferralModal: React.FC<ClinicianReferralModalProps> = ({
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-left text-xs text-slate-600 max-w-md mx-auto space-y-1">
               <strong className="text-slate-900 block">Records Transmission:</strong>
               <p>
-                To transmit DICOM volumes (CBCT / MRI) or dental records securely, please email our clinical liaison team at <strong className="text-teal-800">referrals@renaxishealth.com</strong> or fax to <strong>(832) 555-0866</strong>.
+                To transmit DICOM volumes (CBCT / MRI) or dental records securely, please email our clinical liaison team at <strong className="text-teal-800">referrals@renaxis.com</strong> or fax to <strong>(832) 555-0866</strong>.
               </p>
             </div>
             <button

@@ -60,11 +60,11 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
             <span className="text-slate-600 hidden sm:inline">|</span>
             <a 
-              href="tel:8325550865" 
+              href="tel:3462785330" 
               className="text-slate-300 hover:text-white flex items-center gap-1 font-medium transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-emerald-400" />
-              <span>(832) 555-0865</span>
+              <span>346-278-5330</span>
             </a>
           </div>
         </div>

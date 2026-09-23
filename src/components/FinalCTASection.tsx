@@ -61,11 +61,11 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({
           </button>
 
           <a
-            href="tel:8325550865"
+            href="tel:3462785330"
             className="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm border border-slate-700 transition-all flex items-center justify-center gap-2"
           >
             <Phone className="w-4 h-4 text-teal-400" />
-            <span>Speak with Intake: (832) 555-0865</span>
+            <span>Speak with Intake: 346-278-5330</span>
           </a>
         </div>
 

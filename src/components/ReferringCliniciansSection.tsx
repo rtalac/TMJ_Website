@@ -105,7 +105,7 @@ export const ReferringCliniciansSection: React.FC<ReferringCliniciansSectionProp
                   <span className="text-teal-200">Clinician Direct Phone:</span>
                 </div>
                 <p className="text-lg font-bold text-white pl-6">
-                  (832) 555-0865
+                  346-278-5330
                 </p>
                 <p className="text-[11px] text-teal-300 pl-6">
                   Direct Clinician Extension 104 &bull; Mon–Fri, 8am–5pm CST
@@ -114,7 +114,7 @@ export const ReferringCliniciansSection: React.FC<ReferringCliniciansSectionProp
 
               <div className="p-4 rounded-xl bg-teal-900/80 border border-teal-800 space-y-1 text-xs">
                 <span className="text-teal-200 font-bold block">Secure Records &amp; DICOM Fax:</span>
-                <p className="text-white">Email: <span className="text-teal-300 font-mono">referrals@renaxishealth.com</span></p>
+                <p className="text-white">Email: <span className="text-teal-300 font-mono">referrals@renaxis.com</span></p>
                 <p className="text-white">Direct Medical Fax: <span className="font-mono">(832) 555-0866</span></p>
               </div>
             </div>

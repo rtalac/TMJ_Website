@@ -73,9 +73,9 @@ export const Footer: React.FC<FooterProps> = ({
                 <span>Clinical Campus</span>
               </div>
               <p className="text-slate-400 text-xs">
-                The Woodlands Medical Center <br />
-                9303 Pinecroft Drive, Suite 320 <br />
-                The Woodlands, TX 77380 (Greater Houston Area)
+                Renaxis <br />
+                150 Pine Forest Dr, Suite 801 <br />
+                The Woodlands, TX 77384
               </p>
               <p className="text-[11px] text-slate-500">
                 25 minutes from George Bush Intercontinental Airport (IAH)
@@ -156,13 +156,13 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="space-y-3 text-slate-400">
               <div>
                 <span className="text-slate-500 block text-[11px]">Direct Line:</span>
-                <a href="tel:8325550865" className="text-white font-bold text-sm hover:text-teal-400">
-                  (832) 555-0865
+                <a href="tel:3462785330" className="text-white font-bold text-sm hover:text-teal-400">
+                  346-278-5330
                 </a>
               </div>
               <div>
                 <span className="text-slate-500 block text-[11px]">Clinical Email:</span>
-                <span className="text-teal-300">tmj@renaxishealth.com</span>
+                <span className="text-teal-300">tmj@renaxis.com</span>
               </div>
               <div>
                 <span className="text-slate-500 block text-[11px]">Hours of Operation:</span>
