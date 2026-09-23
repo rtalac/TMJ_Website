@@ -1,0 +1,6 @@
+{
+  "name": "RENAXIS TMJ Regenerative Care",
+  "description": "Specialized clinical program for temporomandibular joint diagnostics, individualized nonsurgical and regenerative care, and functional rehabilitation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
